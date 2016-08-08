@@ -1,0 +1,22 @@
+
+baseurl = "http://dorajam.github.io/thoughts/"
+publishdir = "public"
+layoutdir = "layouts"
+contentdir = "content/post"
+canonifyurls = true
+relativeURLs = false
+
+
+languageCode = "en-us"
+title = "DORA JAMBOR"
+theme = "detox"
+disqusShortname = "@dorajambor"
+
+[params]
+  description = "Things that tickle my mind"
+  author = "Dora Jambor"
+  disqusShortname = "@dorajambor"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"

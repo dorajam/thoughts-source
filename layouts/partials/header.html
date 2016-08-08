@@ -1,0 +1,9 @@
+
+{{ partial "navbar.html" . }}
+<header id="site-header">
+        <div class="container">
+          <h1 class="blog-title heading">{{ .Site.Title }}</h1>
+          <!-- <p class="blog-title heading">{{ .Site.Title }}</p> -->
+            <p class="blog-description">{{ .Site.Params.description }}</p>
+        </div>
+    </header>
