@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DORA JAMBOR</title>
-    <link>http://dorajam.github.io/thoughts/</link>
+    <link>https://dorajam.github.io/thoughts/</link>
     <description>Recent content on DORA JAMBOR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 29 Jul 2016 17:54:21 -0400</lastBuildDate>
-    <atom:link href="http://dorajam.github.io/thoughts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dorajam.github.io/thoughts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>testtest</title>
-      <link>http://dorajam.github.io/thoughts/testtest/</link>
+      <link>https://dorajam.github.io/thoughts/testtest/</link>
       <pubDate>Fri, 29 Jul 2016 17:54:21 -0400</pubDate>
       
-      <guid>http://dorajam.github.io/thoughts/testtest/</guid>
+      <guid>https://dorajam.github.io/thoughts/testtest/</guid>
       <description></description>
     </item>
     
     <item>
       <title>lasy day at RC</title>
-      <link>http://dorajam.github.io/thoughts/test/</link>
+      <link>https://dorajam.github.io/thoughts/test/</link>
       <pubDate>Thu, 28 Jul 2016 16:51:25 -0400</pubDate>
       
-      <guid>http://dorajam.github.io/thoughts/test/</guid>
+      <guid>https://dorajam.github.io/thoughts/test/</guid>
       <description>&lt;p&gt;Hugo-defined: automatic summary split&lt;/p&gt;
 
 &lt;p&gt;By default, Hugo automatically takes the first 70 words of your content as its summary and stores it into the .Summary variable, which you may use in your templates.&lt;/p&gt;
@@ -40,10 +40,10 @@ User-defined: manual summary split:&lt;/p&gt;
     
     <item>
       <title>hello world</title>
-      <link>http://dorajam.github.io/thoughts/beginnings/</link>
+      <link>https://dorajam.github.io/thoughts/beginnings/</link>
       <pubDate>Thu, 28 Jul 2016 15:28:56 -0400</pubDate>
       
-      <guid>http://dorajam.github.io/thoughts/beginnings/</guid>
+      <guid>https://dorajam.github.io/thoughts/beginnings/</guid>
       <description>&lt;p&gt;first attempt at blogging&lt;/p&gt;
 </description>
     </item>
