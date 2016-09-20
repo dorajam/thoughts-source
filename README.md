@@ -1,7 +1,6 @@
 # thoughts-source
 These files are used to build a static site in hugo.
-See my customizations to the *detox* template in layouts/partials
-Find my posts in the content folder.
+See my customizations to the *detox* template in layouts/partials and find my posts in the content folder.
 
 - creta new post by: `hugo new post/<title-of-the-post.md>`
 - to run on your local, use `hugo server`     
