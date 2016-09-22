@@ -4,8 +4,11 @@
         <p class="post-time"><time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Format "January 2, 2006" }}</time></p>
     </header>
     
-    <section class="post-excerpt" style="font-size:13px">
-      <p>{{ .Summary }}</p>
+    <section class="post-excerpt" style="font-size:13px;text-align:left;">
+    {{ if gt (len .Summary) 240 }}
+        <h6><a href="{{ .Permalink }}"></a></h6>
+        <p>{{slicestr .Summary 0  240}} ...<a href="{{ .Permalink }}" style="font-style:italic;font-weight:bold;">read more</a>...</p>
+    {{ end }}
     </section>
 
         <span>

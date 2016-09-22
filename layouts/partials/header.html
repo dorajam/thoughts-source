@@ -1,9 +1,17 @@
 
 {{ partial "navbar.html" . }}
 <header id="site-header">
-        <div class="container">
-          <h1 class="blog-title">{{ .Site.Title }}</h1>
-          <!-- <p class="blog-title heading">{{ .Site.Title }}</p> -->
+    {{ if .GetParam "hasMath"}}
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/contrib/auto-render.min.js"></script>
+    {{ end }}
+    <noscript>
+        <style>.jsonly { display: none }</style>
+    </noscript>
+    <div class="container">
+        <h1 class="blog-title">{{ .Site.Title }}</h1>
+        <!-- <p class="blog-title heading">{{ .Site.Title }}</p> -->
             <p class="blog-description">{{ .Site.Params.description }}</p>
-        </div>
-    </header>
+    </div>
+</header>

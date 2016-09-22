@@ -4,6 +4,7 @@ publishdir = "public"
 layoutdir = "layouts"
 contentdir = "content/post"
 canonifyurls = true
+hasmath = true
 
 
 Languagecode = "en-us"
