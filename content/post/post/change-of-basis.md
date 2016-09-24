@@ -1,6 +1,7 @@
 +++
 date = "2016-09-20T21:53:36+02:00"
 title = "Change of basis in a vector space"
+hasMath = true
 +++
 
 A fascinating characteristic of the human mind is the ability to make connections between different objects and phenomena. What allows us to do this is a common ground along which things can be understood, connected and thus compared.
@@ -12,7 +13,8 @@ To represent different points in space we need some sort of unit of measurement 
 Now imagine a flat world, a two-dimensional universe or plane that’s defined along x and y axes. The conventional way of representing points in 2D space is to use the standard coordinate system, defined by the basis vectors \(i\) and \(j\). Notice, that it is just a choice we have collectively made. We could also represent points in 2D using some alternative units of measurement (i.e. along some different set of gridlines).
 Given our choice, we can now think of a vector as a scaled version of our basis vectors \(i\) and \(j\):
 
-\[
+```
+$$
   v=\begin{pmatrix}
   3\\
   2
@@ -21,17 +23,18 @@ Given our choice, we can now think of a vector as a scaled version of our basis 
   1 & 0 \\
   0 & 1
  \end{pmatrix}
-\]
+$$
+```
 
-As in our standard system we always refer to \(i\) and \(j\) as our basis, we can ignore them and just use the following notation:
-<div>$$
-\[
+As in our standard system we always refer to `\(i\)` and `\(j\)` as our basis, we can ignore them and just use the following notation:
+```
+$$
   v=\begin{pmatrix}
   3\\
   2
  \end{pmatrix}
-\]
-$$</div>
+$$
+```
 
 **Some thoughts on linear transformation**
 
