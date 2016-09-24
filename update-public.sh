@@ -1,7 +1,5 @@
 hugo
 cd ../blogging-public
-rm -rf *
-y
 cp -rf ../blogging/public/ ./
 
 echo -n "Wanna push to gh-pages (y/n)? "

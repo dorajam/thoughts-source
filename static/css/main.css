@@ -1002,3 +1002,8 @@ nav#navbar-main li {
 	right:0;
 	top:0;
 }
+pre {
+    background-color: transparent;
+    border: none;
+    font-size = 100%;
+}
