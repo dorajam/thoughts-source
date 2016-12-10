@@ -48,15 +48,18 @@ There are three scenarios when decomposing eigenvectors:
 `\((ii)\)` _the number of eigenvectors is less than the number of dimensions_  
 `\((iii)\)` _the number of eigenvectors is the same as the number of dimensions_  
 
-**scenario i.  **    
-As mentioned in my previous post on the change of basis, it is up to us what unit of basis we choose to interpret the high-dimensional space in. Given that we have n eigenvectors for an n-dimensional space, we can switch to using the eigenvectors as our basis vectors. This is also referred to as using an “eigenbasis”. If you do end up having n eigenvectors, it is very much recommended to think of your system in terms of these alternative units of basis as they are the most effective in describing the variance of your data. You can get an insight into the variance of your datapoints with respect to their bases (a.k.a. their explanatory or independent variables) by their relative spread towards the different directions.    
+**scenario `\((i)\)`**  
+As mentioned in my previous post on the change of basis, it is up to us what unit of basis we choose to interpret the high-dimensional space in. Given that we have n eigenvectors for an n-dimensional space, we can switch to using the eigenvectors as our basis vectors. This is also referred to as using an “eigenbasis”. If you do end up having n eigenvectors, it is very much recommended to think of your system in terms of these alternative units of basis, as they are the most effective in describing the variance of your data. You can get an insight into the variance of your datapoints with respect to their bases (i.e. their explanatory or independent variables) by their relative spread towards the different directions.    
 
-As for dimensionality reduction, you might be thinking in this scenario it would not be possible to get rid of dimensions because, as I said, “we just need them all”. Good news there are scenarios when some eigenvectors can be neglected. For example, imagine a 3D world where two dimensions are way more stretched out as the third dimension. In this case, if the third dimension is below some threshold, we can say that it doesn’t add to the richness of the representation of the space, hence should be neglected. This of course comes at the cost of reducing the richness of your data.    
+As for dimensionality reduction, you might be thinking in this scenario it would not be possible to get rid of dimensions because, as I said, “we just need them all”. Good news there are scenarios when some eigenvectors can be neglected. For example, imagine a 3D world where two dimensions are way more stretched out as the third dimension. In this case, if the latter is below some threshold, we could choose to neglect it and rely on the more dominant dimensions. This of course comes at the cost of reducing the richness of our data.    
    
-**scenario ii.  **
+**scenario `\((ii)\)`**   
 We may also end up finding less eigenvectors as the number of dimensions of our vector space. Again we could choose to use our eigenvectors as our basis vectors. But notice that if we were to do that, we would automatically end up in a subspace of our original space. This would prevent us from reapplying the same operation to a lower-dimensional space.     
-
-scenario iii.  
+   
+**scenario `\((iii)\)`**  
 It may not be possible to find any eigenpairs (more complex high-dimensional problems will generally have eigenvectors though). For example, a polynomial could end up having no real roots, implying the lack of eigenvalues in the space of real numbers. But even upon the existence of real roots, we might find no eigenvectors that would satisfy the basic definition described above.      
   
 There is another problematic situation you may encounter in this scenario. Finding the eigen-pair that satisfies the definition above only makes sense for linear transformations by square matrices. This holds because we cannot evaluate the preservation of direction between two vector spaces that have different dimensionality.     
+
+Eigenvalues are extremely useful in understanding the long-term behaviour or evolution of a system. Even though this post should give you some intuition behind this,
+there is still a lot of pieces to put together for a comprehensive understanding. I hope you found these notes helpful. In my next blog post, I'm going to continue my discussion on eigenvalues through a somewhat more technical perspective.
